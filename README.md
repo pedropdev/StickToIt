@@ -8,8 +8,12 @@ Web development project still in progress.
 Where everyone and anyone can leave their posts, in the form of sticky notes.
 In order to keep ideas, projects, and commitments organized.
 
-Utilizes HTML,CSS and PHP 
+Utilizes HTML, CSS, Foundation and PHP. 
+
+DB: MySQL
+
+XAMPP stack was used to host.
 
 Connects to database via: PDO.
 
-init.databse.php file is used to set user and database details.
+= "init.databse.php" file is used to set user and database details.
