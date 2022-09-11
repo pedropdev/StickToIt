@@ -8,7 +8,7 @@ Web development project still in progress.
 Where everyone and anyone can leave their posts, in the form of sticky notes.
 In order to keep ideas, projects, and commitments organized.
 
-Utilizes HTML, CSS, Foundation and PHP. 
+Utilizes HTML, CSS, JavaScript (Mostly via Foundation) and PHP. 
 
 DB: MySQL
 
