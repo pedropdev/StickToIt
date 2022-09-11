@@ -1,0 +1,275 @@
+:root {
+    --CORAL: #FF7F50;
+    --ALICE: aliceblue;
+}
+
+.card-divider {
+    background: var(--CORAL);
+}
+
+
+.card {
+    position: relative;
+    background: var(--ALICE);
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 36px 36px 0;
+    border-style: solid;
+    border-color: #d58010 #fff;
+}
+
+
+.back-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.back-bg {
+    opacity: 0.2;
+    position: fixed;    
+    width: 100%;
+    height: auto;
+}
+
+.back-content {
+    position: relative;
+}
+
+#textbox {
+    height: 100px;
+    width: 300px;
+    font-size: 14pt;
+}
+
+#stickynote {
+    width: 2.3em;
+}
+
+
+
+.cell.small-2 {
+    background-color: coral;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 0.2em;
+    color: coral;
+}
+
+label {
+    padding: 2em;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.4rem;
+    background-color: coral;
+    color: whitesmoke;
+}
+
+
+h1 a:hover {
+    color: rgb(255, 101, 127);
+}
+
+
+a {
+    color: coral;    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h3{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* Post Its */
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li.note a {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    min-height: 10em;
+    min-width: 10em;
+    height: relative;
+    width: relative;
+    padding: 1em;
+}
+
+
+
+ul li#view.note a {
+    text-decoration: none;
+    color: #000;
+    background: pink;
+    display: block;
+    height: 10em;
+    width: 10em;
+    padding: 1em;
+}
+ul li#make.note a {
+    text-decoration: none;
+    color: #000;
+    background: paleturquoise;
+    display: block;
+    height: 10em;
+    width: 10em;
+    padding: 1em;
+}
+
+ul li#social.note a {        
+    text-decoration: none;
+    color: whitesmoke;
+    background: rgb(253, 177, 0);
+    display: block;
+    min-height: 6em;    
+    padding: 1em;
+}
+
+
+ul li.note {
+    margin: 1em;
+}
+
+ul li.note a {
+    transform: rotate(-6deg);
+}
+
+ul li.note:nth-child(odd) a {
+    transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background-color: rgb(255, 255, 118);
+}
+
+
+
+ul li.note:nth-child(even) a {
+    position: relative;
+    top: 5px;
+    background: cornflowerblue;
+}
+
+ul li.note:nth-child(4) a {
+    position: relative;
+    top: 5px;
+    background: rgb(215, 159, 255);
+}
+
+
+ul li.note:nth-child(7) a {
+    transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background-color: rgb(137, 255, 243);
+}
+
+ul li.note:nth-child(5) a {
+    transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background-color: rgb(251, 166, 106);
+}
+
+
+ul li.note:nth-child(8) a {
+    transform: rotate(-4deg);
+    position: relative;
+    top: 5px;
+    background-color: rgb(73, 253, 115);
+}
+
+
+ul li.note:first-child a {
+    position: relative;
+    top: 5px;
+    background: pink;
+}
+
+ul li.note a:hover,
+ul li.note a:focus {
+    transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+    color: #000;
+}
+
+h5 {
+    color: rgb(220, 126, 43);
+}
+
+/* Off-Canvas */
+
+
+a:hover{
+    color: rgb(255, 101, 127);
+}
+
+a:focus{
+    color: turquoise;
+}
+
+#offcanvasRightPush{
+    background-color: aliceblue;
+}
+
+#socialmedia{
+    font-weight: bold;
+
+}
+
+/*Footer  */
+#whole-container {
+    position: relative;
+    min-height: 100vh;   
+  }
+  
+  #foot-wrap {
+    padding-bottom: 5rem;    
+   
+  }
+  
+  #foot{    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;            
+  }
+
+footer h6{
+    text-align: center;
+}
+
+  
